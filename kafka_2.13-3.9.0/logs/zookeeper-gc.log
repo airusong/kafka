@@ -1,0 +1,35 @@
+[2024-11-12T15:40:07.651-0800][gc,init] CardTable entry size: 512
+[2024-11-12T15:40:07.652-0800][gc     ] Using G1
+[2024-11-12T15:40:07.654-0800][gc,init] Version: 19.0.1+10-21 (release)
+[2024-11-12T15:40:07.654-0800][gc,init] CPUs: 10 total, 10 available
+[2024-11-12T15:40:07.654-0800][gc,init] Memory: 16384M
+[2024-11-12T15:40:07.654-0800][gc,init] Large Page Support: Disabled
+[2024-11-12T15:40:07.654-0800][gc,init] NUMA Support: Disabled
+[2024-11-12T15:40:07.654-0800][gc,init] Compressed Oops: Enabled (Zero based)
+[2024-11-12T15:40:07.654-0800][gc,init] Heap Region Size: 1M
+[2024-11-12T15:40:07.654-0800][gc,init] Heap Min Capacity: 512M
+[2024-11-12T15:40:07.654-0800][gc,init] Heap Initial Capacity: 512M
+[2024-11-12T15:40:07.654-0800][gc,init] Heap Max Capacity: 512M
+[2024-11-12T15:40:07.654-0800][gc,init] Pre-touch: Disabled
+[2024-11-12T15:40:07.654-0800][gc,init] Parallel Workers: 9
+[2024-11-12T15:40:07.654-0800][gc,init] Concurrent Workers: 2
+[2024-11-12T15:40:07.654-0800][gc,init] Concurrent Refinement Workers: 9
+[2024-11-12T15:40:07.654-0800][gc,init] Periodic GC: Disabled
+[2024-11-12T15:40:07.654-0800][gc,metaspace] CDS archive(s) mapped at: [0x0000000800000000-0x0000000800c44000-0x0000000800c44000), size 12861440, SharedBaseAddress: 0x0000000800000000, ArchiveRelocationMode: 0.
+[2024-11-12T15:40:07.654-0800][gc,metaspace] Compressed class space mapped at: 0x0000000801000000-0x0000000841000000, reserved size: 1073741824
+[2024-11-12T15:40:07.654-0800][gc,metaspace] Narrow klass base: 0x0000000800000000, Narrow klass shift: 0, Narrow klass range: 0x100000000
+[2024-11-12T15:40:09.010-0800][gc,start    ] GC(0) Pause Young (Normal) (G1 Evacuation Pause)
+[2024-11-12T15:40:09.011-0800][gc,task     ] GC(0) Using 9 workers of 9 for evacuation
+[2024-11-12T15:40:09.024-0800][gc,phases   ] GC(0)   Pre Evacuate Collection Set: 0.1ms
+[2024-11-12T15:40:09.024-0800][gc,phases   ] GC(0)   Merge Heap Roots: 0.1ms
+[2024-11-12T15:40:09.024-0800][gc,phases   ] GC(0)   Evacuate Collection Set: 11.9ms
+[2024-11-12T15:40:09.024-0800][gc,phases   ] GC(0)   Post Evacuate Collection Set: 0.7ms
+[2024-11-12T15:40:09.024-0800][gc,phases   ] GC(0)   Other: 0.6ms
+[2024-11-12T15:40:09.024-0800][gc,heap     ] GC(0) Eden regions: 25->0(21)
+[2024-11-12T15:40:09.024-0800][gc,heap     ] GC(0) Survivor regions: 0->4(4)
+[2024-11-12T15:40:09.024-0800][gc,heap     ] GC(0) Old regions: 0->5
+[2024-11-12T15:40:09.024-0800][gc,heap     ] GC(0) Archive regions: 2->2
+[2024-11-12T15:40:09.024-0800][gc,heap     ] GC(0) Humongous regions: 0->0
+[2024-11-12T15:40:09.024-0800][gc,metaspace] GC(0) Metaspace: 8201K(8320K)->8201K(8320K) NonClass: 7349K(7424K)->7349K(7424K) Class: 852K(896K)->852K(896K)
+[2024-11-12T15:40:09.024-0800][gc          ] GC(0) Pause Young (Normal) (G1 Evacuation Pause) 25M->9M(512M) 14.504ms
+[2024-11-12T15:40:09.024-0800][gc,cpu      ] GC(0) User=0.02s Sys=0.02s Real=0.02s
